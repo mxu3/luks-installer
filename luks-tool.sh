@@ -32,7 +32,8 @@
 # sudo /usr/bin/apt-get install zenity
 
 
-
+# test status on MX-15 (Sept 2016) : unsuccessful, MX does not use grub but extlinux or syslinux.
+#
 
 
 
