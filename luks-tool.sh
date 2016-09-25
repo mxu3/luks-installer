@@ -25,6 +25,10 @@
 #
 #
 
+# requires (incomplete list):  
+
+# zenity 
+# sudo /usr/bin/apt-get install zenity
 
 
 
