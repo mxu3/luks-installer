@@ -1,5 +1,5 @@
 # luks-installer
-MX on encrypted partitions
+To put a MX Linux distro on encrypted partitions.
 
 source and release thread: http://antix.freeforums.org/custom-install-multiple-partitions-optional-encryption-t3579.html
 
