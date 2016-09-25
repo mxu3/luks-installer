@@ -19,7 +19,7 @@ Supported file system creation = ext2 / ext3 / ext4 / xfs / minix
 
 Example script configuration for this method:
 
-//##### USER DEFINABLE VALUES ###########################
+/##### USER DEFINABLE VALUES ###########################
 OLDBOOT=/dev/sda7
 OLDROOT=/dev/sda7
 OLDUSR=/dev/sda7
@@ -30,7 +30,7 @@ NEWROOT=/dev/sda6
 NEWUSR=/dev/sda7
 NEWVAR=/dev/sda8
 NEWHOME=/dev/sda9
-#MAPPERS - used for Encrypted Partitions only ##################
+/#MAPPERS - used for Encrypted Partitions only ##################
 MAPPERHOME=home
 MAPPERROOT=root
 BOOTFS=ext2
@@ -38,11 +38,11 @@ ROOTFS=ext4
 USRFS=ext4
 VARFS=ext4
 HOMEFS=ext4
-#DESTINATION DISK (for /etc/fstab) #########################
+/#DESTINATION DISK (for /etc/fstab) #########################
 DISK=/dev/sda
 /#VERSION (needed for Legacy GRUB only) #####################
 VERSION=/etc/antix-version
-//##################################################
+/##################################################
 
 Calculating disk space & installing dependency pv:
 Image
