@@ -23,7 +23,8 @@
 # as a bootable .ISO hybrid image file. Use the "MX-tools" GUI to do it within 5 minutes (10 minutes with USB flashdrive).
 # This tool "antix-move-1" adds encryption features to make your data safe and private.
 #
-#
+# Remember that anyone can change the root password at the bootprompt (F4 "private" or "password") without
+# knowledge of the old password. With LUKS you can secure your data such that the password is actually required.
 
 # requires (incomplete list):  
 
