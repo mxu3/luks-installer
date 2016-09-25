@@ -12,6 +12,19 @@
 # release thread : 
 # http://antix.freeforums.org/custom-install-multiple-partitions-optional-encryption-t3579.html
 # filename: antix-move-1     
+# github fork: https://github.com/mxu3/luks-installer/edit/master/luks-tool.sh
+
+
+
+# A MX Linux (debian) distro is very easy to handle: From a bootable USB thumbdrive F5 bootmenu you can quickly
+# make a "frugal install" onto harddisk (to gain speed) without even touching the hd boot business.
+# This will copy the main 1.5 GB "linuxfs" compressed file and some other files into a single subdirectory.
+# Use persistence at the bootmenu to retain all modified data. Remaster and produce a (cleansed) snapshot copy of your custom MX 
+# as a bootable .ISO hybrid image file. Use the "MX-tools" GUI to do it within 5 minutes (10 minutes with USB flashdrive).
+# This tool "antix-move-1" adds encryption features to make your data safe and private.
+#
+#
+
 
 
 
