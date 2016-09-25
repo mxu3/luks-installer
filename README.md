@@ -19,7 +19,7 @@ Supported file system creation = ext2 / ext3 / ext4 / xfs / minix
 
 Example script configuration for this method:
 
-##### USER DEFINABLE VALUES ###########################
+//##### USER DEFINABLE VALUES ###########################
 OLDBOOT=/dev/sda7
 OLDROOT=/dev/sda7
 OLDUSR=/dev/sda7
@@ -40,9 +40,9 @@ VARFS=ext4
 HOMEFS=ext4
 #DESTINATION DISK (for /etc/fstab) #########################
 DISK=/dev/sda
-#VERSION (needed for Legacy GRUB only) #####################
+/#VERSION (needed for Legacy GRUB only) #####################
 VERSION=/etc/antix-version
-##################################################
+//##################################################
 
 Calculating disk space & installing dependency pv:
 Image
